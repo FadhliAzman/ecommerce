@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #2A2C2E;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    margin: 10px;
+}
+
+li, a, button {
+    font-family: "haebo", sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    color: #FFFFFF99;
+    text-decoration: none;
+}
+ .logo {
+    color: white;
+    list-style: none;
+    font-family: "haebo", sans-serif;
+    cursor: pointer;
+ }
+
+.links {
+    list-style: none;
+}
+
+.links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.links li a {
+    transition: all 0.3s ease 0s ;
+}
+
+.links li a:hover {
+    color: #F4D867;
+}
+
+button {
+    padding: 15px 25px;
+    background-color: #F4D867;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    float: right;
+    color: #2A2C2E;
+
+}
